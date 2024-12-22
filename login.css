@@ -1,0 +1,127 @@
+*
+{
+    margin:0 auto;
+    padding:0;
+    list-style-type: none;
+}
+#login-container
+{
+    height: 725px;
+    width:100%;
+    display: flex;
+    font-family: "Lato", sans-serif;   
+}
+.first-part-login
+{
+    height:auto;
+    width:50%;
+    background-color: wheat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 2%;
+
+}
+.first-part-login ul
+{
+    display: flex;
+
+}
+.first-part-login ul li
+{
+    height: 50px;
+    width: 50px;
+}
+
+.first-part-login ul i
+{
+    font-size: 30px;
+    color:rgb(193, 75, 193);  
+}
+.first-part-login ul i:hover
+{
+   font-size: 35px ; 
+}
+.first-part-login input
+{
+    width:250px;
+    height: 20px;
+    border: none;
+    background-color: wheat;
+    
+}
+input:focus-visible
+{
+	outline:none;
+}
+.username
+{
+    display:flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.password
+{
+    display:flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.submit-login
+{
+    background-color:rgb(193, 75, 193) !important; 
+    color: white;
+}
+.submit-login:hover
+{
+    transform: scaleX(1.2);
+    transform: scaleY(1.2);
+
+}
+.first-part-login a
+{
+    opacity: 80%;
+    text-decoration: none;
+    color:rgb(193, 75, 193);
+}
+.first-part-login p
+{
+    font-size: 14px;
+}
+.first-part-login p a 
+{
+    opacity: 80%;
+    color:rgb(193, 75, 193);
+    text-decoration: underline black;
+}
+
+.second-part-login
+{
+    height:auto;
+    width:50%;
+    color:white;
+    background-image: linear-gradient( 109.6deg,  rgba(228,107,232,1) 11.2%, rgba(87,27,226,1) 96.7% );
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2%;
+}
+p
+{
+    font-size: 20px;
+}   
+#copyright-styling
+{
+    opacity: 50%;
+    font-size: 14px;
+}
+
+h1
+{
+    font-weight: 700;
+    font-size:50px;  
+}
+
+

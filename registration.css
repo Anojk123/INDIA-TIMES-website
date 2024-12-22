@@ -1,0 +1,84 @@
+*
+{
+    margin: 0 auto;
+    padding:0;
+    font-family: "Lato", sans-serif;
+}
+
+.main-container
+{
+    width: 100%;
+    height: 725px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-image: url("https://images7.alphacoders.com/133/thumb-1920-1338193.png"); 
+    background-color: rgba(245, 222, 179, 0.4);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* why it is no taking url of photo in images */
+}
+.main-container::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(193, 75, 193, 0.3);
+}
+.child-container
+{
+    z-index: 1;
+    height: 550px;
+    width: 400px;
+    background-color: wheat;
+    border-radius: 3%;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1
+{
+    font-size: 40px;
+    color:black;
+    opacity: 80%;
+}
+a
+{
+    text-decoration: none;
+    color: purple;
+    
+}
+input
+{
+    width:200px;
+    height: 25px;
+    background-color: wheat;
+    border: none;
+    border-bottom: 1px solid purple;
+}
+i
+{
+    color: purple;
+}
+input:focus-visible
+{
+    outline:none;
+}
+#submit
+{
+    border: 2px solid purple !important;
+    font-weight: bold;
+}
+#submit:hover
+{
+    border: 2px solid purple !important;
+    font-weight: bold;
+    color:wheat;
+    background-color: rgb(193, 75, 193);
+    transform: scale(1.1,1.1);
+}
